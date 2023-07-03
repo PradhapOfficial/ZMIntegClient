@@ -1,0 +1,154 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  clear: both;
+  float: left;
+  width: 100%;
+  height: 500px;
+  background-color: #323437;
+  display: flex;
+}
+
+.leftContainer {
+  height: 100%;
+  border-right: 1px solid #5d5a5ac9;
+  flex-basis: 100px;
+}
+
+.rightContainer {
+  height: 100%;
+  border-right: 1px solid #5d5a5ac9;
+  flex-grow: 1;
+}
+
+.listContainer, .mainContainer {
+  height: 100%;
+}
+
+.listEle {
+  color: #646669;  
+  padding: 5px 20px;
+  margin-top: 12px;
+}
+
+.listEle:hover, .active, .meeting:hover{
+  cursor: pointer;
+  border-radius: 5px;
+  color: #d1d0c5;
+  background-color: #27282a;
+}
+
+.meeting {
+  display: flex;
+  background-color: #27282a;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.sessionInfoContainer {
+  flex: 1;
+  flex-basis: 200px;
+  padding: 10px;
+}
+.topicContainer {
+  flex: 1;;
+  flex-basis: 350px;
+  padding: 10px;
+}
+
+.profileInfoContainer {
+  flex: 1;
+  flex-basis: 350px;
+  padding: 10px;
+}
+
+.moreContainer {
+  flex-shrink: 1;
+  flex-basis: 50px;
+  padding: 10px;
+}
+
+.sessionInfoContainer {
+  flex: 1 1;
+  flex-basis: 200px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+}
+
+.details {
+  display: flex;
+  flex-flow: column;
+  margin: 10px;
+}
+
+.timeInfo {
+  flex-basis: 60px;
+}
+
+.hostInfo {
+  flex-basis: 60px;
+}
+
+.inviteInfo {
+  flex-basis: 60px;
+}
+
+.remainderInfo {
+  flex-basis: 60px;
+}
+
+.hostInfoContainer{
+  flex-basis: 60px;
+}
+
+.hostInfo {
+  display: flex;
+  /* align-items: center; */
+}
+
+.host {
+  /* flex-wrap: wrap; */
+  flex-basis: 300px;
+}
+
+.department {
+  flex-basis: 300px;
+}
+
+.detailsHeader {
+  display: flex;
+  flex-flow: row-reverse;
+}
+
+.meetingBox {
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  margin: 10px;
+  background-color: #27282a;
+}
+
+.meetingLbl {
+  flex: 1;
+  flex-basis: 25px;
+  padding: 10px 5px 5px 10px;
+}
+
+.meetingDesc {
+  flex: 1 1;
+  flex-basis: 100px;
+  padding: 10px 5px 5px 10px;
+  font-size: 20px;
+  font-weight: 10px;
+}
+
+.scheduleBtn {
+  flex: 1;
+}
